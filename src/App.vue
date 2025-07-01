@@ -221,10 +221,6 @@ const isOpen = ref(false)
   </div>
 </section>
 
-
-
-
-
   <footer class="bg-[#414840]">
     <div class="container px-6 py-8 mx-auto space-y-8 lg:space-y-0 lg:flex lg:justify-between">
       <div>
@@ -234,13 +230,14 @@ const isOpen = ref(false)
           </svg>
 
           <div class="mx-2 text-white">
-            <h3 class="font-medium tracking-widest uppercase">Mist Gardens</h3>
-            <p class="mt-1 text-xs italic leading-3 tracking-wide capitalize">museum & botanical garden</p>
+            <h3 class="font-medium tracking-widest uppercase">San Antonio For Christ</h3>
+            <p class="mt-1 text-xs italic leading-3 tracking-wide capitalize">343 Spaatz St, San Antonio, TX 78211</p>
           </div>
         </a>
 
         <p class="max-w-lg mt-6 leading-relaxed text-white ">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum amet molestiae consequatur quam velit sint modi aut illo dolorem.
+          A welcoming non-denominational church in San Antonio, Texas.  
+        Join us for worship, community, and outreach—everyone is welcome!
         </p>
       </div>
 
@@ -287,6 +284,6 @@ const isOpen = ref(false)
     </div>
     
     <p class="w-full py-6 mx-auto text-white text-center bg-[#343D33]">
-      &copy; 2022 Mist Gardens. All rights reserved.
+      &copy;  2025 San Antonio For Christ Church. All rights reserved.
     </p>
   </footer></template>

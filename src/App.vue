@@ -1,3 +1,11 @@
+<script setup>
+import { ref } from 'vue'
+import pastors from './img/pasters.jpg'
+import crossPicture from './img/cross-picture.webp'
+
+const isOpen = ref(false)
+</script>
+
 <template>
   <header class="relative">
     <div class="container px-6 py-6 mx-auto lg:flex lg:items-center lg:justify-between">
@@ -8,15 +16,17 @@
           </svg>
     
           <div class="mx-1 text-gray-700">
-            <h3 class="uppercase tracking-[0.15em] font-medium ">Mist Gardens</h3>
-            <p class="text-xs italic ">Museum & Botanical Garden</p>
+            <h3 class="uppercase tracking-[0.15em] font-medium ">San Antonio For Christ</h3>
+            <p class="text-xs italic ">343 Spaatz St, San Antonio, TX 78211</p>
           </div>
         </a>
   
         <button class="text-gray-600 lg:hidden " @click="isOpen = !isOpen">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg>
+        <img
+            :src="pastors"
+            alt="Pastors"
+            class="w-10 h-10 rounded-full mx-1 sm:h-12 sm:w-12 object-cover"
+          />
         </button>
       </div>
 
@@ -27,128 +37,193 @@
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Visit
+                About Us
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Exhibitions
+                Services
             </a>
   
             <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Programs & Events
+                Events
             </a>
-  
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Store
-            </a>
-  
-            <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Membership</a>
+            
+            <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Connect</a>
         </nav>
       </div>
     </div>
   </header>
 
-  <section class="container flex flex-col items-center px-6 py-12 mx-auto lg:flex-row">
-      <div class="lg:w-1/2">
-        <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl ">A beatiful adventure awaits</h1>
+<section class="container flex flex-col items-center px-6 py-12 mx-auto lg:flex-row">
+  <div class="lg:w-1/2">
+    <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl">
+      Welcome to San Antonio for Christ Church
+    </h1>
 
-        <p class="max-w-lg mt-4 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam voluptatibus perferendis odit optio.</p>
-        
-        <div class="mt-6 sm:flex sm:items-center">
-          <a href="#" class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white ">
-            Buy Tickets
-          </a>
-
-          <a href="#" class="border-2 text-sm duration-300 transition-colors hover:bg-[#475F45] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#475F45] sm:mx-4 border-[#475F45] px-6 block text-center py-3 uppercase">
-            Learn More
-          </a>
-        </div>
-      </div>
-
-      <div class="h-[38rem] mt-12 lg:mt-0 w-full mx-auto max-w-md overflow-hidden rounded-t-full outline outline-4 outline-offset-4 outline-[#475F45]/40">
-        <img class="object-cover w-full h-full rounded-t-full " src="https://images.unsplash.com/photo-1531163859947-fa484f6eacd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="main page" />
-      </div>
-  </section>
-
-  <section class="bg-[#343D33] mt-12">
-    <div class="container flex flex-col px-6 py-16 mx-auto mt-12">
-      <div class="order-2 mt-8 lg:order-1 lg:mt-0 lg:flex lg:items-center lg:-mx-6">
-        <img class="object-cover w-full lg:w-1/2 lg:mx-6 h-72 lg:h-96" src="https://images.unsplash.com/photo-1598901847919-b95dd0fabbb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
-        
-        <div class="mt-8 lg:w-1/2 lg:mx-6 lg:mt-0">
-          <h3 class="font-serif text-2xl text-white capitalize md:text-4xl lg:text-5xl">
-            Discover yourself with nature
-          </h3>
-
-          <p class="mt-4 text-gray-200 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, nisi fugiat dicta impedit sed quisquam quas veritatis consectetur neque saepe, autem facilis dolore officiis minima explicabo perferendis ab porro magnam!
-          </p>
-          
-          <a class="inline-flex px-6 py-3 mt-6 text-white border-2 border-white hover:bg-[#475F45] duration-300 transition-colors" href="#">
-            Learn More
-          </a>
-        </div>
-      </div>
-
-        <img class="order-1 object-cover lg:order-2 w-ful h-72 lg:h-96 lg:mt-12" src="https://images.unsplash.com/photo-1610462275440-4ea0976f46f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
-    </div>
-  </section>
-
-  <section class="container px-6 py-12 mx-auto lg:py-16">
-    <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
-      News & Updates
-    </h3>
+    <p class="max-w-lg mt-4 text-gray-500">
+      Experience hope, connection, and purpose. Join us Sundays at 10:30 am for worship, teaching, and community. Everyone is welcome!
+    </p>
     
-    <div class="mt-8 xl:-mx-6 xl:flex">
-      <div class="xl:w-1/2 xl:mx-6">
-        <img class="object-cover w-full h-96" src="https://images.unsplash.com/photo-1626838524909-7c584c2266f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+   <div class="mt-6 sm:flex sm:items-center">
+<router-link
+    to="/plan-your-visit"
+    class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white"
+>
+  Plan Your Visit
+</router-link>
 
-        <h2 class="mt-6 font-serif text-3xl font-medium text-gray-700">Plants Around Us</h2>
 
-        <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+  <a
+    href="#about"
+    class="border-2 text-sm duration-300 transition-colors hover:bg-[#475F45] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#475F45] sm:mx-4 border-[#475F45] px-6 block text-center py-3 uppercase"
+  >
+    Learn More
+  </a>
+</div>
 
-        <p class="mt-4 italic text-gray-600">December 23, 2021</p>
-      </div>
+  </div>
 
-      <div class="mt-8 space-y-8 xl:w-1/2 xl:mx-6 xl:mt-0">
-        <div class="md:-mx-4 md:flex md:items-center">
-          <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1556426356-0fdc8b663467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80" alt="">
+  <div class="h-[38rem] mt-12 lg:mt-0 w-full mx-auto max-w-md overflow-hidden rounded-t-full outline outline-4 outline-offset-4 outline-[#475F45]/40">
+    <img
+  class="object-cover w-full h-full rounded-t-full"
+  :src="pastors"
+  alt="Church pastors" />
+  </div>
+</section>
 
-          <div class="mt-6 md:mx-4 md:mt-0">
-            <h2 class="font-serif text-2xl font-medium text-gray-700 ">Lush Gardens</h2>
-  
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
-  
-            <p class="mt-4 italic text-gray-600">December 16, 2021</p>
-          </div>
-        </div>
 
-        <div class="md:-mx-4 md:flex md:items-center">
-          <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80" alt="">
+<section class="bg-[#343D33] mt-12">
+  <div class="container flex flex-col px-6 py-16 mx-auto mt-12">
+    <div class="order-2 mt-8 lg:order-1 lg:mt-0 lg:flex lg:items-center lg:-mx-6">
+      <!-- Use your local cross picture if you want -->
+      <img class="object-cover w-full lg:w-1/2 lg:mx-6 h-72 lg:h-96"
+        src="/src/img/cross-picture.webp"
+        alt="San Antonio For Christ Church" />
 
-          <div class="mt-6 md:mx-4 md:mt-0">
-            <h2 class="font-serif text-2xl font-medium text-gray-700 ">Exotic Nature</h2>
-  
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
-  
-            <p class="mt-4 italic text-gray-600">November 11, 2021</p>
-          </div>
-        </div>
+      <div class="mt-8 lg:w-1/2 lg:mx-6 lg:mt-0">
+        <h3 class="font-serif text-2xl text-white capitalize md:text-4xl lg:text-5xl">
+          About San Antonio For Christ
+        </h3>
 
-        <div class="md:-mx-4 md:flex md:items-center">
-          <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0" src="https://images.unsplash.com/photo-1638790491374-a2affccd8c8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        <p class="mt-4 text-gray-200">
+          <strong>San Antonio For Christ</strong> is a non-denominational Christian church in San Antonio, Texas. We're more than just a church — we're a family, and everyone is welcome! Our doors are open to all who are searching for hope, community, and the love of Christ.
+        </p>
 
-          <div class="mt-6 md:mx-4 md:mt-0">
-            <h2 class="font-serif text-2xl font-medium text-gray-700 ">It Starts with Soil</h2>
-  
-            <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt facilisis nuncLorem ipsum dolor sit...</p>
-  
-            <p class="mt-4 italic text-gray-600">November 3, 2021</p>
-          </div>
+        <p class="mt-4 text-gray-200">
+          We offer a variety of outreach programs, including a homeless shelter, a drug rehab center, a food pantry, and a daycare. Our building is wheelchair accessible, and we have a large parking lot across the street for your convenience.
+        </p>
+        
+        <p class="mt-4 text-gray-200">
+          Come as you are and leave your worries at the altar — we believe you will leave changed. Our church is here to support you with open hearts, minds, and souls, ready to receive what God has for us!
+        </p>
+        
+        <div class="mt-6 flex flex-wrap items-center gap-4">
+          <a class="inline-flex px-6 py-3 text-white border-2 border-white hover:bg-[#475F45] duration-300 transition-colors"
+             href="https://www.facebook.com/saforchrist/" target="_blank" rel="noopener">
+            Visit us on Facebook
+          </a>
+          <span class="text-gray-300 text-sm">
+            <svg class="inline-block w-4 h-4 mr-1 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M10.185 2.093a1 1 0 01.63 0l7 2.5A1 1 0 0118 5.5V14a1 1 0 01-.685.942l-7 2.5a1 1 0 01-.63 0l-7-2.5A1 1 0 012 14V5.5a1 1 0 01.685-.907l7-2.5zM4 6.118V13.5l6 2.143V8.26l-6-2.142zm8 9.525l6-2.143V6.118l-6 2.142v7.383z"></path></svg>
+            <span>343 Spaatz St., San Antonio, TX, 78211 &bull; 7.65 miles away</span>
+          </span>
+          <span class="text-gray-300 text-sm">Google Rating: 4.5 ⭐ (48 reviews)</span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<section class="container px-6 py-12 mx-auto lg:py-16">
+  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
+    Service Times
+  </h3>
+  <div class="mt-8 grid gap-8 md:grid-cols-2">
+    <div>
+      <h4 class="text-xl font-bold text-[#475F45]">Sunday Worship</h4>
+      <p class="mt-2 text-gray-700">Every Sunday at 10:30 AM</p>
+      <p class="mt-2 text-gray-500">Join us for uplifting worship and a practical message. Childcare and kids ministry available!</p>
+    </div>
+    <div>
+      <h4 class="text-xl font-bold text-[#475F45]">Wednesday Bible Study</h4>
+      <p class="mt-2 text-gray-700">Every Wednesday at 7:00 PM</p>
+      <p class="mt-2 text-gray-500">Midweek encouragement for all ages. Everyone welcome!</p>
+    </div>
+  </div>
+  <div class="mt-8 text-gray-600">
+    <strong>Location:</strong> 343 Spaatz St., San Antonio, TX 78211 <br/>
+    <a href="https://www.facebook.com/saforchrist/" target="_blank" class="underline text-[#475F45]">See map & directions</a>
+  </div>
+</section>
+
+
+<section class="container px-6 py-12 mx-auto lg:py-16">
+  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
+    Learn More!
+  </h3>
+  
+  <div class="mt-8 xl:-mx-6 xl:flex">
+    <!-- Main story -->
+    <div class="xl:w-1/2 xl:mx-6">
+      <img 
+    src="https://images.unsplash.com/photo-1506516493400-bb5e8347bf0e?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="Cross in an open field at sunset"
+    class="object-cover w-full h-96 rounded-lg shadow"
+    />
+
+      <h2 class="mt-6 font-serif text-3xl font-medium text-gray-700">Food Pantry Feeds Over 300 Families</h2>
+      <p class="mt-2 text-gray-500">
+        Thanks to our amazing volunteers and donors, San Antonio For Christ was able to serve groceries to over 300 families last Saturday! If you or someone you know needs help, our pantry is open every Saturday from 10am to 12pm.
+      </p>
+      <p class="mt-4 italic text-gray-600">July 1, 2025</p>
+    </div>
+
+    <!-- Other updates -->
+    <div class="mt-8 space-y-8 xl:w-1/2 xl:mx-6 xl:mt-0">
+      <div class="md:-mx-4 md:flex md:items-center">
+        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
+          src="https://images.unsplash.com/photo-1556426356-0fdc8b663467?auto=format&fit=crop&w=1498&q=80"
+          alt="Homeless Shelter Update">
+        <div class="mt-6 md:mx-4 md:mt-0">
+          <h2 class="font-serif text-2xl font-medium text-gray-700">Shelter Renovations Complete!</h2>
+          <p class="mt-2 text-gray-500">
+            Our homeless shelter has completed major renovations, including new beds, showers, and a prayer room. Thank you for your support!
+          </p>
+          <p class="mt-4 italic text-gray-600">June 15, 2025</p>
+        </div>
+      </div>
+
+      <div class="md:-mx-4 md:flex md:items-center">
+        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
+          src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?auto=format&fit=crop&w=1476&q=80"
+          alt="Summer Daycare Program">
+        <div class="mt-6 md:mx-4 md:mt-0">
+          <h2 class="font-serif text-2xl font-medium text-gray-700">Summer Daycare Registration Open</h2>
+          <p class="mt-2 text-gray-500">
+            Our Christ-centered daycare is enrolling for summer! Safe, fun activities and meals provided. Contact us to learn more.
+          </p>
+          <p class="mt-4 italic text-gray-600">June 1, 2025</p>
+        </div>
+      </div>
+
+      <div class="md:-mx-4 md:flex md:items-center">
+        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
+          src="https://images.unsplash.com/photo-1638790491374-a2affccd8c8a?auto=format&fit=crop&w=1470&q=80"
+          alt="Community Event">
+        <div class="mt-6 md:mx-4 md:mt-0">
+          <h2 class="font-serif text-2xl font-medium text-gray-700">Upcoming: Community Worship Night</h2>
+          <p class="mt-2 text-gray-500">
+            Join us for a special night of worship and testimony, open to all. Friday, July 12th at 7pm in the main sanctuary.
+          </p>
+          <p class="mt-4 italic text-gray-600">July 12, 2025</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
   <footer class="bg-[#414840]">
     <div class="container px-6 py-8 mx-auto space-y-8 lg:space-y-0 lg:flex lg:justify-between">
@@ -171,11 +246,10 @@
 
       <div class="flex flex-col space-y-4">
         <a href="#" class="text-white hover:text-gray-300">Home</a>
-        <a href="#" class="text-white hover:text-gray-300">Visit</a>
-        <a href="#" class="text-white hover:text-gray-300">Exhibitions</a>
-        <a href="#" class="text-white hover:text-gray-300">Programs & Events</a>
-        <a href="#" class="text-white hover:text-gray-300">Store</a>
-        <a href="#" class="text-white hover:text-gray-300">Membership</a>
+        <a href="#" class="text-white hover:text-gray-300">About Us</a>
+        <a href="#" class="text-white hover:text-gray-300">Services</a>
+        <a href="#" class="text-white hover:text-gray-300">Events</a>
+        <a href="#" class="text-white hover:text-gray-300">Connect</a>
       </div>
       
       <div>
@@ -215,15 +289,4 @@
     <p class="w-full py-6 mx-auto text-white text-center bg-[#343D33]">
       &copy; 2022 Mist Gardens. All rights reserved.
     </p>
-  </footer>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      isOpen: false
-    }
-  }
-}
-</script>
+  </footer></template>

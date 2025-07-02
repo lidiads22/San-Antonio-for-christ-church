@@ -137,89 +137,178 @@ const isOpen = ref(false)
   <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
     Service Times
   </h3>
-  <div class="mt-8 grid gap-8 md:grid-cols-2">
-    <div>
+
+  <div class="mt-10 flex flex-col md:flex-row md:items-start md:gap-10 lg:gap-16">
+    <!-- Text Block -->
+    <div class="flex-1 max-w-xl">
       <h4 class="text-xl font-bold text-[#475F45]">Sunday Worship</h4>
       <p class="mt-2 text-gray-700">Every Sunday at 10:30 AM</p>
-      <p class="mt-2 text-gray-500">Join us for uplifting worship and a practical message. Childcare and kids ministry available!</p>
+      <p class="mt-2 text-gray-500">
+        Join us for uplifting worship and a practical message. Childcare and kids ministry available!
+      </p>
+
+      <div class="mt-6 text-gray-600">
+        <strong>Location:</strong> 343 Spaatz St., San Antonio, TX 78211<br />
+        <a href="https://www.facebook.com/saforchrist/" target="_blank" class="underline text-[#475F45]">
+          See map & directions
+        </a>
+      </div>
     </div>
-    <div>
-      <h4 class="text-xl font-bold text-[#475F45]">Wednesday Bible Study</h4>
-      <p class="mt-2 text-gray-700">Every Wednesday at 7:00 PM</p>
-      <p class="mt-2 text-gray-500">Midweek encouragement for all ages. Everyone welcome!</p>
-    </div>
-  </div>
-  <div class="mt-8 text-gray-600">
-    <strong>Location:</strong> 343 Spaatz St., San Antonio, TX 78211 <br/>
-    <a href="https://www.facebook.com/saforchrist/" target="_blank" class="underline text-[#475F45]">See map & directions</a>
+
+<!-- Image Block for join us -->
+<div class="mt-8 md:mt-0 flex justify-center md:justify-end">
+  <img 
+    src="/src/img/JoinUs.png" 
+    alt="Sunday Service Flyer" 
+    class="w-72 md:w-80 lg:w-96 rounded-lg shadow-md object-cover"
+  />
+</div>
   </div>
 </section>
+
+
 
 
 <section class="container px-6 py-12 mx-auto lg:py-16">
   <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
-    Learn More!
+    Events
   </h3>
   
-  <div class="mt-8 xl:-mx-6 xl:flex">
-    <!-- Main story -->
-    <div class="xl:w-1/2 xl:mx-6">
-      <img 
-    src="https://images.unsplash.com/photo-1506516493400-bb5e8347bf0e?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    alt="Cross in an open field at sunset"
-    class="object-cover w-full h-96 rounded-lg shadow"
-    />
 
-      <h2 class="mt-6 font-serif text-3xl font-medium text-gray-700">Food Pantry Feeds Over 300 Families</h2>
-      <p class="mt-2 text-gray-500">
-        Thanks to our amazing volunteers and donors, San Antonio For Christ was able to serve groceries to over 300 families last Saturday! If you or someone you know needs help, our pantry is open every Saturday from 10am to 12pm.
-      </p>
-      <p class="mt-4 italic text-gray-600">July 1, 2025</p>
-    </div>
+<div class="flex flex-wrap gap-6 justify-center">
+  <!-- Widget 1 -->
+<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#f3f5f9] border border-[#e4e7ed] p-6">
+  <h4 class="text-lg font-bold mb-2 text-[#314066]">Weekly Bible Study</h4>
+  <div>
+    <strong>Bible Study Night</strong><br>
+    <span class="text-[#5774c6]">Every Wednesday – 7:00pm</span>
+    <br>
+    <span class="text-[#3a495e]">Join us for fellowship, prayer, and learning!</span>
+    <br>
+    <a href="#" class="text-[#5177f6]">Get Directions</a>
+  </div>
+</div>
 
-    <!-- Other updates -->
-    <div class="mt-8 space-y-8 xl:w-1/2 xl:mx-6 xl:mt-0">
-      <div class="md:-mx-4 md:flex md:items-center">
-        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
-          src="https://images.unsplash.com/photo-1556426356-0fdc8b663467?auto=format&fit=crop&w=1498&q=80"
-          alt="Homeless Shelter Update">
-        <div class="mt-6 md:mx-4 md:mt-0">
-          <h2 class="font-serif text-2xl font-medium text-gray-700">Shelter Renovations Complete!</h2>
-          <p class="mt-2 text-gray-500">
-            Our homeless shelter has completed major renovations, including new beds, showers, and a prayer room. Thank you for your support!
-          </p>
-          <p class="mt-4 italic text-gray-600">June 15, 2025</p>
-        </div>
-      </div>
-
-      <div class="md:-mx-4 md:flex md:items-center">
-        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
-          src="https://images.unsplash.com/photo-1583470790878-4f4f3811a01f?auto=format&fit=crop&w=1476&q=80"
-          alt="Summer Daycare Program">
-        <div class="mt-6 md:mx-4 md:mt-0">
-          <h2 class="font-serif text-2xl font-medium text-gray-700">Summer Daycare Registration Open</h2>
-          <p class="mt-2 text-gray-500">
-            Our Christ-centered daycare is enrolling for summer! Safe, fun activities and meals provided. Contact us to learn more.
-          </p>
-          <p class="mt-4 italic text-gray-600">June 1, 2025</p>
-        </div>
-      </div>
-
-      <div class="md:-mx-4 md:flex md:items-center">
-        <img class="object-cover w-full h-56 md:h-48 md:mx-4 md:w-80 shrink-0"
-          src="https://images.unsplash.com/photo-1638790491374-a2affccd8c8a?auto=format&fit=crop&w=1470&q=80"
-          alt="Community Event">
-        <div class="mt-6 md:mx-4 md:mt-0">
-          <h2 class="font-serif text-2xl font-medium text-gray-700">Upcoming: Community Worship Night</h2>
-          <p class="mt-2 text-gray-500">
-            Join us for a special night of worship and testimony, open to all. Friday, July 12th at 7pm in the main sanctuary.
-          </p>
-          <p class="mt-4 italic text-gray-600">July 12, 2025</p>
-        </div>
-      </div>
+  <!-- Widget 2 -->
+  <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#fff6e6] border border-[#f7d9b5] p-6">
+    <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Youth Night</h4>
+    <div>
+      <strong>Youth Social Gathering</strong><br>
+      <span class="text-[#c57f17]">Sunday, July 7th – 6:00pm</span>
+      <br>
+      <a href="#" class="text-[#c57f17]">RSVP Here</a>
     </div>
   </div>
+  <!-- Widget 3 -->
+  <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#e6f5f0] border border-[#99e0c3] p-6">
+    <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Weekly Devotional</h4>
+    <div>
+      <span>Download the latest study guide:</span>
+      <br>
+      <a href="#" class="text-[#1d8965]">Download PDF</a>
+    </div>
+  </div>
+</div>
+
+
+  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
+   Resources
+  </h3>
+
+<div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+  <!-- Widget 1 -->
+<div class="resources-widget" style="max-width: 350px; min-width: 250px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fafaf9; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
+  <h3 style="margin-bottom: 1rem; color: #384050; font-size: 1.4rem; font-weight: bold;">
+     Food Pantry Program
+  </h3>
+  <ul style="list-style: none; padding-left: 0; margin-bottom: 1.3rem;">
+    <li style="margin-bottom: .8rem;">
+      <strong>Location:</strong>
+      <span>343 Spaatz St, San Antonio, TX 78211</span>
+    </li>
+    <li style="margin-bottom: .8rem;">
+      <strong>Hours:</strong>
+      <span>Every Saturday, 10am–12pm</span>
+    </li>
+    <li style="margin-bottom: .8rem;">
+      <strong>What to Bring:</strong>
+      <span>ID and proof of address (if available)</span>
+    </li>
+    <li style="margin-bottom: .8rem;">
+      <strong>How It Works:</strong>
+      <span>No registration required. Open to all in need. Volunteers welcome!</span>
+    </li>
+    <li style="margin-bottom: .8rem;">
+      <strong>Latest Update:</strong>
+      <span>Over 300 families served last Saturday!</span>
+    </li>
+  </ul>
+  <div style="font-size: .98rem; color: #67738c;">
+    Questions or want to volunteer? <a href="mailto:info@saforchrist.com" style="color: #5177f6;">Email us</a>
+  </div>
+</div>
+
+
+<!-- Rehab-->
+<div class="resources-widget" style="max-width: 370px; min-width: 260px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fffdfb; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
+  <h3 style="margin-bottom: 1rem; color: #6a1b1b; font-size: 1.4rem; font-weight: bold;">
+    Drug & Alcohol Rehab
+  </h3>
+  <p style="font-size: .96rem; color: #4b4b4b; margin-bottom: 1rem;">
+    Our approach is to treat the <strong>ROOT</strong> of addiction—not just the symptoms. We believe <strong>SIN</strong> is the deeper issue, and that <strong>JESUS</strong> died for all. When people accept this truth, they can be <strong>FREE</strong> from the consequences of sin.
+  </p>
+  <ul style="list-style: disc; padding-left: 1.2rem; margin-bottom: 1.2rem; font-size: .95rem; color: #444;">
+    <li>Live-In Rehab Service</li>
+    <li>24 Hour Support</li>
+  </ul>
+  <div style="margin-bottom: 1rem;">
+    📍 <strong>343 Spaatz Street, San Antonio, TX 78211</strong><br>
+    📞 <a href="tel:2109244463" style="color: #d32f2f; font-weight: bold;">Call Now: (210) 924-4463</a>
+  </div>
+  <p style="font-size: .9rem; color: #555; font-style: italic;">
+    “So if the Son sets you free, you will be free indeed.” – John 8:36
+  </p>
+</div>
+
+
+<div class="resources-widget" style="max-width: 350px; min-width: 250px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #f9fafb; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
+  <h3 style="margin-bottom: 1rem; color: #276143; font-size: 1.3rem; font-weight: bold;">
+    Volunteer Opportunities
+  </h3>
+  <ul style="list-style: none; padding-left: 0; margin-bottom: 1.1rem;">
+    <li style="margin-bottom: .7rem;">
+      <strong>Food Pantry Helper:</strong>  
+      <span>Saturdays, 10am–12pm</span>
+    </li>
+    <li style="margin-bottom: .7rem;">
+      <strong>Sunday Greeter:</strong>  
+      <span>9:45am – 11:30am</span>
+    </li>
+    <li style="margin-bottom: .7rem;">
+      <strong>Youth Ministry Volunteer:</strong>  
+      <span>Wednesdays, 7pm</span>
+    </li>
+    <li>
+      <strong>Outreach Team:</strong>  
+      <span>Flexible times – <a href="mailto:your@email.com" style="color: #1996e1;">Contact to join</a></span>
+    </li>
+  </ul>
+  <div style="font-size: .98rem; color: #417050;">
+    Ready to help? <a href="https://forms.gle/your-google-form-link" style="color: #1996e1;">Sign up here</a>
+    <br>
+    or email <a href="mailto:your@email.com" style="color: #1996e1;">your@email.com</a>
+  </div>
+</div>
+
+
+
+</div>
+
+
 </section>
+
+
+
 
   <footer class="bg-[#414840]">
     <div class="container px-6 py-8 mx-auto space-y-8 lg:space-y-0 lg:flex lg:justify-between">

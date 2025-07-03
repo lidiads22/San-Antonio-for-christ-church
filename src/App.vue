@@ -97,7 +97,7 @@ const isOpen = ref(false)
     <div class="order-2 mt-8 lg:order-1 lg:mt-0 lg:flex lg:items-center lg:-mx-6">
       <!-- Use your local cross picture if you want -->
       <img class="object-cover w-full lg:w-1/2 lg:mx-6 h-72 lg:h-96"
-        src="/src/img/cross-picture.webp"
+        src="/src/img/IMG_7763.jpeg"
         alt="San Antonio For Christ Church" />
 
       <div class="mt-8 lg:w-1/2 lg:mx-6 lg:mt-0">
@@ -189,25 +189,34 @@ const isOpen = ref(false)
   </div>
 </div>
 
-  <!-- Widget 2 -->
-  <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#fff6e6] border border-[#f7d9b5] p-6">
-    <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Youth Night</h4>
-    <div>
-      <strong>Youth Social Gathering</strong><br>
-      <span class="text-[#c57f17]">Sunday, July 7th – 6:00pm</span>
-      <br>
-      <a href="#" class="text-[#c57f17]">RSVP Here</a>
-    </div>
+<!-- Women's Bible Study Widget -->
+<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#fff6e6] border border-[#f7d9b5] p-6">
+  <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Women's Bible Study</h4>
+  <div>
+    <strong>Next meeting:</strong><br>
+    <span class="text-[#c57f17] italic">To be announced</span><br>
+    <p class="mt-2 text-sm text-gray-700">
+      A time for women to connect, pray, and grow together in the Word.
+    </p>
+    <br>
+    <a href="#" class="text-[#c57f17] underline">Contact for more info</a>
   </div>
-  <!-- Widget 3 -->
-  <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#e6f5f0] border border-[#99e0c3] p-6">
-    <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Weekly Devotional</h4>
-    <div>
-      <span>Download the latest study guide:</span>
-      <br>
-      <a href="#" class="text-[#1d8965]">Download PDF</a>
-    </div>
+</div>
+
+<!-- Men's Bible Study Widget -->
+<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#e6f5f0] border border-[#99e0c3] p-6">
+  <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Men's Bible Study</h4>
+  <div>
+    <strong>Next gathering:</strong><br>
+    <span class="text-[#1d8965] italic">Coming soon</span><br>
+    <p class="mt-2 text-sm text-gray-700">
+      Fellowship and encouragement for men of all ages. 
+    </p>
+    <br>
+    <a href="#" class="text-[#1d8965] underline">Stay updated</a>
   </div>
+</div>
+
 </div>
 
 
@@ -244,7 +253,7 @@ const isOpen = ref(false)
     </li>
   </ul>
   <div style="font-size: .98rem; color: #67738c;">
-    Questions or want to volunteer? <a href="mailto:info@saforchrist.com" style="color: #5177f6;">Email us</a>
+    Questions or want to volunteer? <a href="mailto:elizabethperalez@yahoo.com" style="color: #5177f6;">Email us</a>
   </div>
 </div>
 
@@ -263,7 +272,7 @@ const isOpen = ref(false)
   </ul>
   <div style="margin-bottom: 1rem;">
     📍 <strong>343 Spaatz Street, San Antonio, TX 78211</strong><br>
-    📞 <a href="tel:2109244463" style="color: #d32f2f; font-weight: bold;">Call Now: (210) 924-4463</a>
+     <a href="tel:(210) 922‑4463">Call Now: (210) 924-4463</a>
   </div>
   <p style="font-size: .9rem; color: #555; font-style: italic;">
     “So if the Son sets you free, you will be free indeed.” – John 8:36
@@ -278,11 +287,11 @@ const isOpen = ref(false)
   <ul style="list-style: none; padding-left: 0; margin-bottom: 1.1rem;">
     <li style="margin-bottom: .7rem;">
       <strong>Food Pantry Helper:</strong>  
-      <span>Saturdays, 10am–12pm</span>
+      <span>Weekdays</span>
     </li>
     <li style="margin-bottom: .7rem;">
       <strong>Sunday Greeter:</strong>  
-      <span>9:45am – 11:30am</span>
+      <span>10:00 am – 10:30am</span>
     </li>
     <li style="margin-bottom: .7rem;">
       <strong>Youth Ministry Volunteer:</strong>  
@@ -290,13 +299,13 @@ const isOpen = ref(false)
     </li>
     <li>
       <strong>Outreach Team:</strong>  
-      <span>Flexible times – <a href="mailto:your@email.com" style="color: #1996e1;">Contact to join</a></span>
+      <span>Flexible times – <a href="mailto:elizabethperalez@yahoo.com" style="color: #1996e1;">Contact to join</a></span>
     </li>
   </ul>
   <div style="font-size: .98rem; color: #417050;">
-    Ready to help? <a href="https://forms.gle/your-google-form-link" style="color: #1996e1;">Sign up here</a>
+    Ready to help? 
     <br>
-    or email <a href="mailto:your@email.com" style="color: #1996e1;">your@email.com</a>
+    Email <a href="mailto:elizabethperalez@yahoo.com" style="color: #1996e1;">elizabethperalez@yahoo.com</a>
   </div>
 </div>
 

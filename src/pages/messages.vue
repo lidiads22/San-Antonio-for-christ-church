@@ -53,7 +53,13 @@ const isOpen = ref(false)
 
     <!-- MESSAGES CONTENT -->
 <section class="px-6 py-12 mx-auto max-w-4xl">
-  <h2 class="text-3xl font-serif font-bold text-[#475F45] mb-6 ">Messages at San Antonio for Christ</h2>
+  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-6">
+  Messages at San Antonio For Christ
+</h1>
+<p class="text-lg text-gray-600 mb-10">
+  Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
+</p>
+
   <div class="space-y-4">
     <!-- Sermon Card -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">

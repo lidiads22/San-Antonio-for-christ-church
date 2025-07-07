@@ -32,19 +32,19 @@ const isOpen = ref(false)
 
       <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']" class=" absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] ">
         <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            <a href="#home" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
                 Home
             </a>
   
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            <a href="#about" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
                 About Us
             </a>
   
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            <a href="#service" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
                 Services
             </a>
   
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+            <a href="#events" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
                 Events
             </a>
             
@@ -58,7 +58,7 @@ const isOpen = ref(false)
 
 <section class="container flex flex-col items-center px-6 py-12 mx-auto lg:flex-row">
   <div class="lg:w-1/2">
-    <h1 class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl">
+    <h1 id="about" class="max-w-xl font-serif text-4xl font-medium tracking-wide text-[#343D33] capitalize md:text-6xl">
       Welcome to San Antonio for Christ Church
     </h1>
 
@@ -67,20 +67,18 @@ const isOpen = ref(false)
     </p>
     
    <div class="mt-6 sm:flex sm:items-center">
-<router-link
+    <router-link
     to="/messages"
     class="bg-[#475F45] hover:bg-[#475F45]/80 duration-300 transition-colors border-2 border-[#475F45] px-6 block text-center py-3 uppercase text-sm font-bold leading-4 tracking-widest text-white"
->
-  Messages
+    >
+    Messages
 </router-link>
 
-
-
   <a
-    href="#about"
+    href="#service"
     class="border-2 text-sm duration-300 transition-colors hover:bg-[#475F45] hover:text-white font-bold leading-4 mt-4 sm:mt-0 tracking-widest text-[#475F45] sm:mx-4 border-[#475F45] px-6 block text-center py-3 uppercase"
   >
-    Learn More
+    Service Time
   </a>
 </div>
 
@@ -137,7 +135,7 @@ const isOpen = ref(false)
   </div>
 </section>
 
-<section class="container px-6 py-12 mx-auto lg:py-16">
+<section id="service" class="container px-6 py-12 mx-auto lg:py-16">
   <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
     Service Times
   </h3>
@@ -173,7 +171,7 @@ const isOpen = ref(false)
 
 
 
-<section class="container px-6 py-12 mx-auto lg:py-16">
+<section id="events" class="container px-6 py-12 mx-auto lg:py-16">
   <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
     Events
   </h3>
@@ -194,7 +192,7 @@ const isOpen = ref(false)
 
 <!-- Women's Bible Study Widget -->
 <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#fff6e6] border border-[#f7d9b5] p-6">
-  <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Women's Bible Study</h4>
+  <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Women's Fellowship</h4>
   <div>
     <strong>Next meeting:</strong><br>
     <span class="text-[#c57f17] italic">To be announced</span><br>
@@ -208,7 +206,7 @@ const isOpen = ref(false)
 
 <!-- Men's Bible Study Widget -->
 <div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#e6f5f0] border border-[#99e0c3] p-6">
-  <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Men's Bible Study</h4>
+  <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Men's Fellowship</h4>
   <div>
     <strong>Next gathering:</strong><br>
     <span class="text-[#1d8965] italic">Coming soon</span><br>
@@ -240,7 +238,7 @@ const isOpen = ref(false)
     </li>
     <li style="margin-bottom: .8rem;">
       <strong>Hours:</strong>
-      <span>Every Saturday, 10am–12pm</span>
+      <span>Tuesday, 8:00 AM</span>
     </li>
     <li style="margin-bottom: .8rem;">
       <strong>What to Bring:</strong>

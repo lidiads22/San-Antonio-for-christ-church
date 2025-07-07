@@ -36,16 +36,34 @@ const isOpen = ref(false)
         </div>
 
         <!-- Navigation Links -->
-        <div :class="[isOpen ? 'opacity-100' : 'opacity-0 -translate-x-full']"
-             class="absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45]">
-          <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
-            <a href="/" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">Home</a>
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">About Us</a>
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">Services</a>
-            <a href="#" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">Events</a>
-            <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Connect</a>
-          </nav>
-        </div>
+      <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']" class=" absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] ">
+        <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
+            <router-link to="/" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+  Home
+</router-link>
+
+<router-link to="/#about" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+  About Us
+</router-link>
+
+<router-link to="/#services" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+  Services
+</router-link>
+
+<router-link to="/#events" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+  Events
+</router-link>
+
+<router-link to="/#resources" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+  Resources
+</router-link>
+
+<router-link to="/#connect" class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white">
+  Connect
+</router-link>
+
+        </nav>
+      </div>
       </div>
     </header>
 

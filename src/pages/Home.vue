@@ -172,7 +172,7 @@ const isOpen = ref(false)
 
 
 
-<section class="container px-6 py-12 mx-auto lg:py-16">
+<section id="events" class="container px-6 py-12 mx-auto lg:py-16">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
     Events
   </h1>
@@ -240,7 +240,7 @@ const isOpen = ref(false)
 
 
 
-<section id="Resources" class="container px-6 py-12 mx-auto lg:py-16">
+<section id="resources" class="container px-6 py-12 mx-auto lg:py-16">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
     Resources
   </h1>
@@ -331,6 +331,36 @@ const isOpen = ref(false)
 </div>
 </section>
 
+<section id="connect" class="container px-6 py-12 mx-auto lg:py-16">
+  <h2 class="text-5xl font-serif font-bold text-[#475F45] mb-6">
+    Connect
+  </h2>
+  <p class="text-lg text-gray-600 mb-10 max-w-2xl">
+    We'd love to hear from you! Whether you're new, have questions, or just want to say hello—reach out and connect with us.
+  </p>
+
+  <div class="bg-white p-6 rounded shadow border border-gray-200 space-y-4">
+    <p class="text-gray-800"><strong>Email:</strong> <a href="mailto:elizabethperalez@yahoo.com" class="text-[#475F45] hover:underline">elizabethperalez@yahoo.com</a></p>
+    <p class="text-gray-800"><strong>Phone:</strong> <a href="tel:+12100000000" class="text-[#475F45] hover:underline">(210) 922-4463</a></p>
+    <p class="text-gray-800"><strong>Address:</strong> 343 Spaatz St, San Antonio, TX 78211</p>
+
+    <!-- Clickable Map Image -->
+<div class="mt-6">
+  <a
+    href="https://www.google.com/maps/search/?api=1&query=343+Spaatz+St,+San+Antonio,+TX+78211"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="/src/img/map.png"
+      alt="Map to San Antonio For Christ Church"
+      class="w-full max-w-xs rounded shadow-md hover:opacity-90 transition"
+    />
+  </a>
+</div>
+
+  </div>
+</section>
 
 
 

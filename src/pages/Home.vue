@@ -48,6 +48,9 @@ const isOpen = ref(false)
                 Events
             </a>
             
+            <a href="#resources" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
+                Resources
+            </a>
             <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Connect</a>
         </nav>
       </div>
@@ -136,10 +139,9 @@ const isOpen = ref(false)
 </section>
 
 <section id="service" class="container px-6 py-12 mx-auto lg:py-16">
-  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
-    Service Times
-  </h3>
-
+<h2 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
+  Service Times
+</h2>
   <div class="mt-10 flex flex-col md:flex-row md:items-start md:gap-10 lg:gap-16">
     <!-- Text Block -->
     <div class="flex-1 max-w-xl">
@@ -170,61 +172,78 @@ const isOpen = ref(false)
 
 
 
-
-<section id="events" class="container px-6 py-12 mx-auto lg:py-16">
-  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
+<section class="container px-6 py-12 mx-auto lg:py-16">
+  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
     Events
-  </h3>
+  </h1>
+  <p class="text-lg text-gray-600 mb-10 max-w-2xl">
+    Be inspired and uplifted by our weekly sermons and special gatherings at San Antonio For Christ Church.
+  </p>
 
-<div class="flex flex-wrap gap-6 justify-center">
-  <!-- Widget 1 -->
-<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#f3f5f9] border border-[#e4e7ed] p-6">
-  <h4 class="text-lg font-bold mb-2 text-[#314066]">Weekly Bible Study</h4>
-  <div>
-    <strong>Bible Study Night</strong><br>
-    <span class="text-[#5774c6]">Every Wednesday – 7:00pm</span>
-    <br>
-    <span class="text-[#3a495e]">Join us for fellowship, prayer, and learning!</span>
-    <br>
-    <a href="#" class="text-[#5177f6]">Get Directions</a>
+  <div class="space-y-4">
+    <!-- Bible Study -->
+    <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
+      <div class="flex-shrink-0 text-center w-16">
+        <p class="text-sm text-gray-500">Every</p>
+        <p class="text-xl font-bold text-[#475F45]">Wed</p>
+      </div>
+      <div class="flex-1 ml-4">
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday Night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Bible Study</h3>
+        <p class="text-sm text-gray-600">Wednesdays, 7:00 PM · Main Building</p>
+      </div>
+    </div>
+
+    <!-- Women’s Fellowship -->
+    <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
+      <div class="flex-shrink-0 text-center w-16">
+        <p class="text-sm text-gray-500">TBD</p>
+        <p class="text-xl font-bold text-[#475F45]">—</p>
+      </div>
+      <div class="flex-1 ml-4">
+        <p class="text-xs text-gray-400 uppercase font-medium">Women's Ministry</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Women's Fellowship</h3>
+        <p class="text-sm text-gray-600">Date to be announced · Check back for updates</p>
+      </div>
+    </div>
+
+    <!-- Men’s Fellowship -->
+    <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
+      <div class="flex-shrink-0 text-center w-16">
+        <p class="text-sm text-gray-500">TBD</p>
+        <p class="text-xl font-bold text-[#475F45]">—</p>
+      </div>
+      <div class="flex-1 ml-4">
+        <p class="text-xs text-gray-400 uppercase font-medium">Men's Ministry</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Men's Fellowship</h3>
+        <p class="text-sm text-gray-600">Date to be announced · Stay tuned for details</p>
+      </div>
+    </div>
+
+    <!-- Women's Retreat -->
+    <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
+      <div class="flex-shrink-0 text-center w-16">
+        <p class="text-sm text-gray-500">Upcoming</p>
+        <p class="text-xl font-bold text-[#475F45]">—</p>
+      </div>
+      <div class="flex-1 ml-4">
+        <p class="text-xs text-gray-400 uppercase font-medium">Special Event</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Women's Retreat</h3>
+        <p class="text-sm text-gray-600">Details coming soon · Reach out to leadership for more info</p>
+      </div>
+    </div>
   </div>
-</div>
-
-<!-- Women's Bible Study Widget -->
-<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#fff6e6] border border-[#f7d9b5] p-6">
-  <h4 class="text-lg font-bold mb-2 text-[#c57f17]">Women's Fellowship</h4>
-  <div>
-    <strong>Next meeting:</strong><br>
-    <span class="text-[#c57f17] italic">To be announced</span><br>
-    <p class="mt-2 text-sm text-gray-700">
-      A time for women to connect, pray, and grow together in the Word.
-    </p>
-    <br>
-    <a href="#" class="text-[#c57f17] underline">Contact for more info</a>
-  </div>
-</div>
-
-<!-- Men's Bible Study Widget -->
-<div class="min-w-[240px] max-w-xs flex-1 rounded-xl bg-[#e6f5f0] border border-[#99e0c3] p-6">
-  <h4 class="text-lg font-bold mb-2 text-[#1d8965]">Men's Fellowship</h4>
-  <div>
-    <strong>Next gathering:</strong><br>
-    <span class="text-[#1d8965] italic">Coming soon</span><br>
-    <p class="mt-2 text-sm text-gray-700">
-      Fellowship and encouragement for men of all ages. 
-    </p>
-    <br>
-    <a href="#" class="text-[#1d8965] underline">Stay updated</a>
-  </div>
-</div>
-
-</div>
+</section>
 
 
-  <h3 class="font-serif text-3xl text-[#343D33] capitalize md:text-4xl lg:text-5xl">
-   Resources
-  </h3>
 
+
+
+
+<section id="Resources" class="container px-6 py-12 mx-auto lg:py-16">
+  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
+    Resources
+  </h1>
 <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
   <!-- Widget 1 -->
 <div class="resources-widget" style="max-width: 350px; min-width: 250px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fafaf9; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
@@ -337,10 +356,11 @@ const isOpen = ref(false)
 
       <div class="flex flex-col space-y-4">
         <a href="#" class="text-white hover:text-gray-300">Home</a>
-        <a href="#" class="text-white hover:text-gray-300">About Us</a>
-        <a href="#" class="text-white hover:text-gray-300">Services</a>
-        <a href="#" class="text-white hover:text-gray-300">Events</a>
-        <a href="#" class="text-white hover:text-gray-300">Connect</a>
+        <a href="#about" class="text-white hover:text-gray-300">About Us</a>
+        <a href="#service" class="text-white hover:text-gray-300">Services</a>
+        <a href="#events" class="text-white hover:text-gray-300">Events</a>
+        <a href="#resources" class="text-white hover:text-gray-300">Resources</a>
+        <a href="#connect" class="text-white hover:text-gray-300">Connect</a>
       </div>
       
       <div>

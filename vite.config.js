@@ -3,5 +3,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/San-Antonio-for-christ-church/', // IMPORTANT for GitHub Pages
+  base: '/San-Antonio-for-christ-church/'
 })

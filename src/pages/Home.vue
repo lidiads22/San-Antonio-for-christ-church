@@ -237,99 +237,67 @@ const isOpen = ref(false)
 
 
 
-
-
-
 <section id="resources" class="container px-6 py-12 mx-auto lg:py-16">
-  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
+  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-10 text-center lg:text-left">
     Resources
   </h1>
-<div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
-  <!-- Widget 1 -->
-<div class="resources-widget" style="max-width: 350px; min-width: 250px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fafaf9; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
-  <h3 style="margin-bottom: 1rem; color: #384050; font-size: 1.4rem; font-weight: bold;">
-     Food Pantry Program
-  </h3>
-  <ul style="list-style: none; padding-left: 0; margin-bottom: 1.3rem;">
-    <li style="margin-bottom: .8rem;">
-      <strong>Location:</strong>
-      <span>343 Spaatz St, San Antonio, TX 78211</span>
-    </li>
-    <li style="margin-bottom: .8rem;">
-      <strong>Hours:</strong>
-      <span>Tuesday, 8:00 AM</span>
-    </li>
-    <li style="margin-bottom: .8rem;">
-      <strong>What to Bring:</strong>
-      <span>ID and proof of address (if available)</span>
-    </li>
-    <li style="margin-bottom: .8rem;">
-      <strong>How It Works:</strong>
-      <span>No registration required. Open to all in need. Volunteers welcome!</span>
-    </li>
-    <li style="margin-bottom: .8rem;">
-      <strong>Latest Update:</strong>
-      <span>Over 300 families served last Saturday!</span>
-    </li>
-  </ul>
-  <div style="font-size: .98rem; color: #67738c;">
-    Questions or want to volunteer? <a href="mailto:elizabethperalez@yahoo.com" style="color: #5177f6;">Email us</a>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Food Pantry Widget -->
+    <div class="rounded-xl border border-gray-200 bg-[#fafaf9] shadow-xl p-6">
+      <h3 class="mb-4 text-xl font-bold text-[#384050]">Food Pantry Program</h3>
+      <ul class="text-sm space-y-3">
+        <li><strong>Location:</strong> 343 Spaatz St, San Antonio, TX 78211</li>
+        <li><strong>Hours:</strong> Tuesday, 8:00 AM</li>
+        <li><strong>What to Bring:</strong> ID and proof of address (if available)</li>
+        <li><strong>How It Works:</strong> No registration required. Open to all in need. Volunteers welcome!</li>
+        <li><strong>Latest Update:</strong> Over 300 families served last Saturday!</li>
+      </ul>
+      <p class="text-sm text-[#67738c] mt-4">
+        Questions or want to volunteer? <a href="mailto:elizabethperalez@yahoo.com" class="text-blue-600 underline">Email us</a>
+      </p>
+    </div>
+
+    <!-- Rehab Widget -->
+    <div class="rounded-xl border border-gray-200 bg-[#fffdfb] shadow-xl p-6">
+      <h3 class="mb-4 text-xl font-bold text-[#6a1b1b]">Drug & Alcohol Rehab</h3>
+      <p class="text-sm text-[#4b4b4b] mb-3">
+        Our approach is to treat the <strong>ROOT</strong> of addiction—not just the symptoms. We believe <strong>SIN</strong> is the deeper issue, and that <strong>JESUS</strong> died for all. When people accept this truth, they can be <strong>FREE</strong> from the consequences of sin.
+      </p>
+      <ul class="list-disc pl-6 text-sm text-[#444] mb-3">
+        <li>Live-In Rehab Service</li>
+        <li>24 Hour Support</li>
+      </ul>
+      <p class="text-sm text-[#4b4b4b] mb-2">
+        <strong>Location:</strong> 343 Spaatz Street, San Antonio, TX 78211<br>
+        <a href="tel:(210) 922-4463" class="text-blue-600 underline">Call Now: (210) 924-4463</a>
+      </p>
+      <p class="text-sm italic text-[#555]">
+        “So if the Son sets you free, you will be free indeed.” – John 8:36
+      </p>
+    </div>
+
+    <!-- Volunteer Widget -->
+    <div class="rounded-xl border border-gray-200 bg-[#f9fafb] shadow-xl p-6">
+      <h3 class="mb-4 text-xl font-bold text-[#276143]">Volunteer Opportunities</h3>
+      <ul class="text-sm space-y-3">
+        <li><strong>Food Pantry Helper:</strong> Weekdays</li>
+        <li><strong>Sunday Greeter:</strong> 10:00 am – 10:30am</li>
+        <li><strong>Youth Ministry Volunteer:</strong> Wednesdays, 7pm</li>
+        <li><strong>Outreach Team:</strong> Flexible times – <a href="mailto:elizabethperalez@yahoo.com" class="text-blue-600 underline">Contact to join</a></li>
+      </ul>
+      <p class="text-sm text-[#417050] mt-4">
+        Ready to help? <br>
+        Email <a href="mailto:elizabethperalez@yahoo.com" class="text-blue-600 underline">elizabethperalez@yahoo.com</a>
+      </p>
+    </div>
   </div>
-</div>
-
-
-<!-- Rehab-->
-<div class="resources-widget" style="max-width: 370px; min-width: 260px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fffdfb; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
-  <h3 style="margin-bottom: 1rem; color: #6a1b1b; font-size: 1.4rem; font-weight: bold;">
-    Drug & Alcohol Rehab
-  </h3>
-  <p style="font-size: .96rem; color: #4b4b4b; margin-bottom: 1rem;">
-    Our approach is to treat the <strong>ROOT</strong> of addiction—not just the symptoms. We believe <strong>SIN</strong> is the deeper issue, and that <strong>JESUS</strong> died for all. When people accept this truth, they can be <strong>FREE</strong> from the consequences of sin.
-  </p>
-  <ul style="list-style: disc; padding-left: 1.2rem; margin-bottom: 1.2rem; font-size: .95rem; color: #444;">
-    <li>Live-In Rehab Service</li>
-    <li>24 Hour Support</li>
-  </ul>
-  <div style="margin-bottom: 1rem;">
-    📍 <strong>343 Spaatz Street, San Antonio, TX 78211</strong><br>
-     <a href="tel:(210) 922‑4463">Call Now: (210) 924-4463</a>
-  </div>
-  <p style="font-size: .9rem; color: #555; font-style: italic;">
-    “So if the Son sets you free, you will be free indeed.” – John 8:36
-  </p>
-</div>
-
-
-<div class="resources-widget" style="max-width: 350px; min-width: 250px; margin: 2rem 0; border-radius: 1rem; border: 1px solid #e5e7eb; background: #f9fafb; box-shadow: 0 6px 24px 0 #0002; padding: 1.5rem;">
-  <h3 style="margin-bottom: 1rem; color: #276143; font-size: 1.3rem; font-weight: bold;">
-    Volunteer Opportunities
-  </h3>
-  <ul style="list-style: none; padding-left: 0; margin-bottom: 1.1rem;">
-    <li style="margin-bottom: .7rem;">
-      <strong>Food Pantry Helper:</strong>  
-      <span>Weekdays</span>
-    </li>
-    <li style="margin-bottom: .7rem;">
-      <strong>Sunday Greeter:</strong>  
-      <span>10:00 am – 10:30am</span>
-    </li>
-    <li style="margin-bottom: .7rem;">
-      <strong>Youth Ministry Volunteer:</strong>  
-      <span>Wednesdays, 7pm</span>
-    </li>
-    <li>
-      <strong>Outreach Team:</strong>  
-      <span>Flexible times – <a href="mailto:elizabethperalez@yahoo.com" style="color: #1996e1;">Contact to join</a></span>
-    </li>
-  </ul>
-  <div style="font-size: .98rem; color: #417050;">
-    Ready to help? 
-    <br>
-    Email <a href="mailto:elizabethperalez@yahoo.com" style="color: #1996e1;">elizabethperalez@yahoo.com</a>
-  </div>
-</div>
-</div>
 </section>
+
+
+
+
+
+
 
 <section id="connect" class="container px-6 py-12 mx-auto lg:py-16">
   <h2 class="text-5xl font-serif font-bold text-[#475F45] mb-6">

@@ -236,9 +236,8 @@ const isOpen = ref(false)
 </section>
 
 
-
-<section id="resources" class="container px-6 py-12 mx-auto lg:py-16">
-  <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-10 text-center lg:text-left">
+<section id="resources" class="container px-4 py-12 mx-auto lg:py-16">
+  <h1 class="text-4xl font-serif font-bold text-[#475F45] mb-10 text-center">
     Resources
   </h1>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

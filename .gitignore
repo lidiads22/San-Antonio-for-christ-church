@@ -1,0 +1,12 @@
+
+# Node modules
+node_modules/
+
+# local gh-pages cache
+node_modules/.cache/gh-pages/
+
+# build output
+dist/
+
+# environment files
+.env

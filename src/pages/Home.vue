@@ -200,7 +200,7 @@ const isOpen = ref(false)
 
       <div class="mt-6 text-gray-600">
         <strong>Location:</strong> 343 Spaatz St., San Antonio, TX 78211<br />
-        <a href="https://www.facebook.com/saforchrist/" target="_blank" class="underline text-[#475F45]">
+        <a href="https://www.google.com/maps/search/?api=1&query=343+Spaatz+St,+San+Antonio,+TX+78211" target="_blank" class="underline text-[#475F45]">
           See map & directions
         </a>
       </div>
@@ -408,7 +408,6 @@ const isOpen = ref(false)
       </div>
       
       <div>
-        <p class="font-medium text-white capitalize">Connect</p>
 
         <div class="flex mt-6 -mx-4">
           <a class="mx-4 text-white hover:text-gray-300" href="#">

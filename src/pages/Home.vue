@@ -30,31 +30,61 @@ const isOpen = ref(false)
         </button>
       </div>
 
-      <div :class="[isOpen ? 'opacity-100 ' : 'opacity-0 -translate-x-full ']" class=" absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] ">
-        <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
-            <a href="#home" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Home
-            </a>
-  
-            <a href="#about" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                About Us
-            </a>
-  
-            <a href="#service" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Services
-            </a>
-  
-            <a href="#events" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Events
-            </a>
-            
-            <a href="#resources" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-                Resources
-            </a>
-            <a class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white" href="#">Connect</a>
-        </nav>
-      </div>
+<div
+  :class="[
+    isOpen
+      ? 'opacity-100 translate-x-0 pointer-events-auto'
+      : 'opacity-0 -translate-x-full pointer-events-none',
+    'absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] z-50'
+  ]"
+>
+  <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
+    <a
+      href="#home"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Home</a>
+
+    <a
+      href="#about"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >About Us</a>
+
+    <a
+      href="#service"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Services</a>
+
+    <a
+      href="#events"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Events</a>
+
+    <a
+      href="#resources"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Resources</a>
+
+    <router-link
+      to="/messages"
+      class="block w-full sm:w-auto text-center px-6 py-3 text-sm font-bold uppercase tracking-widest border-2 border-[#475F45] bg-[#475F45] text-white hover:bg-[#475F45]/80 transition lg:mx-4"
+    >Messages</router-link>
+
+    <a
+      href="#connect"
+      @click="isOpen = false"
+      class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white"
+    >Connect</a>
+  </nav>
+</div>
+
     </div>
+
+
   </header>
 
 

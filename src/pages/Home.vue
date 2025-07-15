@@ -21,13 +21,35 @@ const isOpen = ref(false)
           </div>
         </a>
   
-        <button class="text-gray-600 lg:hidden " @click="isOpen = !isOpen">
-        <img
-            :src="pastors"
-            alt="Pastors"
-            class="w-10 h-10 rounded-full mx-1 sm:h-12 sm:w-12 object-cover"
-          />
-        </button>
+      <button
+        @click="isOpen = !isOpen"
+        class="lg:hidden p-2 text-gray-600"
+        aria-label="Toggle menu"
+      >
+        <!-- show ☰ when closed -->
+        <svg
+          v-if="!isOpen"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-8 w-8"
+          fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+
+        <!-- show ✕ when open -->
+        <svg
+          v-else
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-8 w-8"
+          fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
       </div>
 
 <div
@@ -68,11 +90,6 @@ const isOpen = ref(false)
       @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >Resources</a>
-
-    <router-link
-      to="/messages"
-      class="block w-full sm:w-auto text-center px-6 py-3 text-sm font-bold uppercase tracking-widest border-2 border-[#475F45] bg-[#475F45] text-white hover:bg-[#475F45]/80 transition lg:mx-4"
-    >Messages</router-link>
 
     <a
       href="#connect"

@@ -2,8 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
 import Messages from '../pages/messages.vue'
 
-const BASE = '/San-Antonio-for-christ-church/'
-
 const routes = [
   { path: '/', component: Home },
   { path: '/messages', component: Messages },

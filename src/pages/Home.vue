@@ -74,7 +74,7 @@ const isOpen = ref(false)
     >About Us</a>
 
     <!-- in your Home.vue nav -->
-    <a href="#service" @click="isOpen = false" class="…">
+    <a href="#service" @click="isOpen = false" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
       Services
     </a>
 

@@ -73,15 +73,10 @@ const isOpen = ref(false)
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >About Us</a>
 
-    <!-- Instead of <a href="#service">…</a> -->
-    <router-link
-      :to="{ path: '/', hash: '#service' }"
-      @click="isOpen = false"
-      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >
+    <!-- in your Home.vue nav -->
+    <a href="#service" @click="isOpen = false" class="…">
       Services
-    </router-link>
-
+    </a>
 
     <a
       href="#events"

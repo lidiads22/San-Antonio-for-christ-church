@@ -1,17 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../pages/Home.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import Home     from '../pages/Home.vue'
 import Messages from '../pages/messages.vue'
 
-const BASE = '/San-Antonio-for-christ-church/'
-
 const routes = [
-  { path: '/', component: Home },
+  { path: '/',         component: Home     },
   { path: '/messages', component: Messages },
-  // others…
+  // …
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  // ← use hash mode so GH-Pages always loads your SPA shell
+  history: createWebHashHistory(),
   routes,
   scrollBehavior(to) {
     if (to.hash) return { el: to.hash, behavior: 'smooth' }

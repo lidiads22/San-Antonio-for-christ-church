@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lidiads22.github.io/San-Antonio-for-christ-church/",
+  "homepage": "https://sanantonioforchrist.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

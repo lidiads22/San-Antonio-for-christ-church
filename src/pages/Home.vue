@@ -73,11 +73,15 @@ const isOpen = ref(false)
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >About Us</a>
 
-    <a
-      href="#service"
+    <!-- Instead of <a href="#service">…</a> -->
+    <router-link
+      :to="{ path: '/', hash: '#service' }"
       @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >Services</a>
+    >
+      Services
+    </router-link>
+
 
     <a
       href="#events"

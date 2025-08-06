@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/San-Antonio-for-christ-church/',
+  base: '/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')

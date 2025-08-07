@@ -205,6 +205,48 @@ const isOpen = ref(false)
   </div>
 </section>
 
+<!-- GALLERY SECTION -->
+<section id="gallery" class="py-12 bg-gray-50">
+  <h2 class="text-3xl font-semibold text-center text-[#475F45] mb-8">
+    Photo Gallery
+  </h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+    <div class="group relative overflow-hidden rounded-lg shadow">
+      <img
+        src="/img/gallery1.jpg"
+        alt="Community Cook-out"
+        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
+      >
+        <svg class="w-12 h-12 text-white opacity-0 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M14.752 11.168l-5.197-3.03A1 1 0 008 9.053v5.894a1 1 0 001.555.832l5.197-3.03a1 1 0 000-1.664z" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Repeat this block for each photo: just change the src & alt -->
+    <div class="group relative overflow-hidden rounded-lg shadow">
+      <img
+        src="/img/gallery2.jpg"
+        alt="Youth Worship Night"
+        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
+      >
+        <svg class="w-12 h-12 text-white opacity-0 group-hover:opacity-100" …>…play icon…</svg>
+      </div>
+    </div>
+
+    <!-- …and so on for gallery3.jpg, gallery4.jpg, etc. -->
+  </div>
+</section>
+
 
   </main>
   <footer class="bg-[#414840]">

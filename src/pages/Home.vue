@@ -52,12 +52,14 @@ const isOpen = ref(false)
       </button>
       </div>
 
+
+
 <div
-  :class="[
+ :class="[
     isOpen
       ? 'opacity-100 translate-x-0 pointer-events-auto'
       : 'opacity-0 -translate-x-full pointer-events-none',
-    'absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] z-50'
+    'absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:pointer-events-auto lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] z-50'
   ]"
 >
 <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
@@ -104,10 +106,7 @@ const isOpen = ref(false)
     >Connect</router-link>
   </nav>
 </div>
-
     </div>
-
-
   </header>
 
 

@@ -100,31 +100,7 @@ const isOpen = ref(false)
 </p>
 
   <div class="space-y-4">
-    <!-- Sermon Card -->
-    <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
-      <div class="flex-shrink-0 text-center w-16">
-        <p class="text-sm text-gray-500">Jun</p>
-        <p class="text-xl font-bold text-[#475F45]">29</p>
-      </div>
-
-      <!-- Details -->
-      <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Sunday Morning</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">With pastors Hector Garza & Elizabeth Peralez Garza</h3>
-        <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building </p>
-      </div>
-
-      <!-- Button -->
-      <a
-        href="https://www.facebook.com/watch/?v=2137026813474881"
-        target="_blank"
-        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
-      >
-        Watch
-      </a>
-    </div>
-
+    
     <!-- Duplicate this block for each sermon -->
       <div class="space-y-4">
     <!-- Sermon Card -->

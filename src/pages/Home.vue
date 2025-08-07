@@ -69,7 +69,6 @@ const isOpen = ref(false)
 
     <a
       href="#about"
-      @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >About Us</a>
 
@@ -86,13 +85,11 @@ const isOpen = ref(false)
 
     <a
       href="#resources"
-      @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >Resources</a>
 
     <a
       href="#connect"
-      @click="isOpen = false"
       class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white"
     >Connect</a>
   </nav>

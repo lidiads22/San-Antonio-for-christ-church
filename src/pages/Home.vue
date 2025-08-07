@@ -60,38 +60,48 @@ const isOpen = ref(false)
     'absolute lg:static transition-all duration-300 w-full py-12 lg:py-0 left-1/2 lg:opacity-100 lg:translate-x-0 lg:bg-transparent lg:w-auto -translate-x-1/2 top-20 sm:top-24 bg-[#475F45] z-50'
   ]"
 >
-  <nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
-    <a
-      href="#home"
+<nav class="flex flex-col items-center space-y-8 lg:flex-row lg:space-y-0 lg:-mx-4">
+    <!-- Home -->
+    <router-link
+      :to="{ path: '/', hash: '#home' }"
       @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >Home</a>
+    >Home</router-link>
 
-    <a
-      href="#about"
-      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >About Us</a>
-
-    <!-- in your Home.vue nav -->
-    <a href="#service" @click="isOpen = false" class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4">
-      Services
-    </a>
-
-    <a
-      href="#events"
+    <!-- About Us -->
+    <router-link
+      :to="{ path: '/', hash: '#about' }"
       @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >Events</a>
+    >About Us</router-link>
 
-    <a
-      href="#resources"
+    <!-- Services (you already have this working) -->
+    <router-link
+      :to="{ path: '/', hash: '#service' }"
+      @click="isOpen = false"
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
-    >Resources</a>
+    >Services</router-link>
 
-    <a
-      href="#connect"
+    <!-- Events -->
+    <router-link
+      :to="{ path: '/', hash: '#events' }"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Events</router-link>
+
+    <!-- Resources -->
+    <router-link
+      :to="{ path: '/', hash: '#resources' }"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >Resources</router-link>
+
+    <!-- Connect -->
+    <router-link
+      :to="{ path: '/', hash: '#connect' }"
+      @click="isOpen = false"
       class="px-8 py-2.5 text-white lg:text-[#475F45] lg:hover:bg-[#475F45] lg:hover:text-white duration-300 transition-colors font-medium lg:mx-4 border-2 lg:border-[#475F45] border-white"
-    >Connect</a>
+    >Connect</router-link>
   </nav>
 </div>
 

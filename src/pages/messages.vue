@@ -90,7 +90,6 @@ const isOpen = ref(false)
 
 
 
-<!-- Replace your current <section class="px-6 py-12 mx-auto max-w-4xl">…</section> with this -->
 <section id="messages" class="px-6 py-12 mx-auto max-w-4xl">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-6">
     Messages at San Antonio For Christ
@@ -99,6 +98,7 @@ const isOpen = ref(false)
     Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
   </p>
 
+  <!-- ONE wrapper for all cards -->
   <div class="space-y-4">
     <!-- Sermon Aug 3 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">

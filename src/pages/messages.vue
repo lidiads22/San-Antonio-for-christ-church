@@ -24,7 +24,7 @@ const isOpen = ref(false)
             </div>
           </a>
 
-          <!-- Mobile Menu Toggle -->
+    <!-- Mobile Menu Toggle -->
      <button
         @click="isOpen = !isOpen"
         class="lg:hidden p-2 text-gray-600"
@@ -89,31 +89,29 @@ const isOpen = ref(false)
     </header>
 
 
-
-    <!-- MESSAGES CONTENT -->
-<section class="px-6 py-12 mx-auto max-w-4xl">
+<!-- MESSAGES CONTENT -->
+<section id="messages" class="px-6 py-12 mx-auto max-w-4xl">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-6">
-  Messages at San Antonio For Christ
-</h1>
-<p class="text-lg text-gray-600 mb-10">
-  Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
-</p>
+    Messages at San Antonio For Christ
+  </h1>
+  <p class="text-lg text-gray-600 mb-10">
+    Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
+  </p>
 
   <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon #1 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">29</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Sunday Morning</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">With pastors Hector Garza & Elizabeth Peralez Garza</h3>
-        <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building </p>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          With pastors Hector Garza &amp; Elizabeth Peralez Garza
+        </h3>
+        <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=2137026813474881"
         target="_blank"
@@ -123,22 +121,19 @@ const isOpen = ref(false)
       </a>
     </div>
 
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon #2 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">25</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Minister Victor Garza San Antonio for Christ</h3>
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday Night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Minister Victor Garza San Antonio for Christ
+        </h3>
         <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=743380788067628"
         target="_blank"
@@ -147,22 +142,20 @@ const isOpen = ref(false)
         Watch
       </a>
     </div>
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+
+    <!-- Sermon #3 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">18</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to SAFC as we worship tonight With Brother Juan sharing Gods word</h3>
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday Night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Welcome to SAFC as we worship tonight With Brother Juan sharing God’s word
+        </h3>
         <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=691502060457827"
         target="_blank"
@@ -172,22 +165,19 @@ const isOpen = ref(false)
       </a>
     </div>
 
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon #4 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">15</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Sunday Morning</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Join us as we celebrate Father’s Day@ San Antonio for Christ</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Join us as we celebrate Father’s Day @ San Antonio for Christ
+        </h3>
         <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=1083091810333354"
         target="_blank"
@@ -197,22 +187,19 @@ const isOpen = ref(false)
       </a>
     </div>
 
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon #5 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">14</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Saturday</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Building a God-Centered Marriage</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Building a God-Centered Marriage
+        </h3>
         <p class="text-sm text-gray-600">Saturday, 10:50 AM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=726876649714195"
         target="_blank"
@@ -221,14 +208,9 @@ const isOpen = ref(false)
         Watch
       </a>
     </div>
-
-      <!-- Duplicate this block for each sermon -->
-  </div>
-  </div>
-  </div>
-  </div>
   </div>
 </section>
+
 
   </main>
   <footer class="bg-[#414840]">

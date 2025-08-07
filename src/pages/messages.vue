@@ -90,123 +90,110 @@ const isOpen = ref(false)
 
 
 
-    <!-- MESSAGES CONTENT -->
-<section class="px-6 py-12 mx-auto max-w-4xl">
+<!-- Replace your current <section class="px-6 py-12 mx-auto max-w-4xl">…</section> with this -->
+<section id="messages" class="px-6 py-12 mx-auto max-w-4xl">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-6">
-  Messages at San Antonio For Christ
-</h1>
-<p class="text-lg text-gray-600 mb-10">
-  Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
-</p>
+    Messages at San Antonio For Christ
+  </h1>
+  <p class="text-lg text-gray-600 mb-10">
+    Be inspired and uplifted by our weekly sermons and messages rooted in God’s Word.
+  </p>
 
   <div class="space-y-4">
-    
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon Aug 3 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Aug</p>
         <p class="text-xl font-bold text-[#475F45]">3</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Sunday Service</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Pastor Hector Garza bringing fourth the Word of the Lord</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Pastor Hector Garza bringing forth the Word of the Lord
+        </h3>
         <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=1247803573261946"
         target="_blank"
-        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
+        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45]
+               hover:bg-[#475F45] hover:text-white rounded transition"
       >
         Watch
       </a>
     </div>
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+
+    <!-- Sermon Jul 30 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jul</p>
         <p class="text-xl font-bold text-[#475F45]">30</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to SAFC as we worship tonight with Pastora Lydia</h3>
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday Night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Welcome to SAFC as we worship tonight with Pastora Lydia
+        </h3>
         <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=1442796113592764"
         target="_blank"
-        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
+        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45]
+               hover:bg-[#475F45] hover:text-white rounded transition"
       >
         Watch
       </a>
     </div>
 
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon Jul 27 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jul</p>
         <p class="text-xl font-bold text-[#475F45]">27</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Sunday Morning</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Join us at San Antonio for Christ</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Join us at San Antonio for Christ
+        </h3>
         <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=1269153764664459"
         target="_blank"
-        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
+        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45]
+               hover:bg-[#475F45] hover:text-white rounded transition"
       >
         Watch
       </a>
     </div>
 
-    <!-- Duplicate this block for each sermon -->
-      <div class="space-y-4">
-    <!-- Sermon Card -->
+    <!-- Sermon Jun 14 -->
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
-      <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
         <p class="text-sm text-gray-500">Jun</p>
         <p class="text-xl font-bold text-[#475F45]">14</p>
       </div>
-      <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to Wednesday night service at San Antonio For Christ</h3>
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday Night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">
+          Welcome to Wednesday night service at San Antonio For Christ
+        </h3>
         <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
-      <!-- Button -->
       <a
         href="https://www.facebook.com/watch/?v=1162506038831944"
         target="_blank"
-        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
+        class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45]
+               hover:bg-[#475F45] hover:text-white rounded transition"
       >
         Watch
       </a>
     </div>
-
-      <!-- Duplicate this block for each sermon -->
-  </div>
-  </div>
-  </div>
-  </div>
   </div>
 </section>
+
 
   </main>
   <footer class="bg-[#414840]">

@@ -239,7 +239,6 @@ const isOpen = ref(false)
       <div
         class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
       >
-        <svg class="w-12 h-12 text-white opacity-0 group-hover:opacity-100" …>…play icon…</svg>
       </div>
     </div>
 

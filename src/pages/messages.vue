@@ -231,7 +231,7 @@ const isOpen = ref(false)
     <!-- Repeat this block for each photo: just change the src & alt -->
     <div class="group relative overflow-hidden rounded-lg shadow">
       <img
-        src="/src/img/IMG_7766.jpeg"
+        src="/src/img/churchPictureWorship.webp"
         alt="Youth Worship Night"
         class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         loading="lazy"
@@ -282,10 +282,35 @@ const isOpen = ref(false)
       </div>
     </div>
 
-
    <div class="group relative overflow-hidden rounded-lg shadow">
       <img
         src="/src/img/church.jpg"
+        alt="Youth Worship Night"
+        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
+      >
+      </div>
+    </div>
+
+    <div class="group relative overflow-hidden rounded-lg shadow">
+      <img
+        src="/src/img/foodPantry1.jpg"
+        alt="Youth Worship Night"
+        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
+      >
+      </div>
+    </div>
+
+    <div class="group relative overflow-hidden rounded-lg shadow">
+      <img
+        src="/src/img/fbpicture.jpg"
         alt="Youth Worship Night"
         class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         loading="lazy"

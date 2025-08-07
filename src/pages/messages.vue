@@ -131,18 +131,18 @@ const isOpen = ref(false)
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
       <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
-        <p class="text-sm text-gray-500">Jun</p>
-        <p class="text-xl font-bold text-[#475F45]">25</p>
+        <p class="text-sm text-gray-500">Aug</p>
+        <p class="text-xl font-bold text-[#475F45]">3</p>
       </div>
       <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Minister Victor Garza San Antonio for Christ</h3>
-        <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
+        <p class="text-xs text-gray-400 uppercase font-medium">Sunday Service</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Pastor Hector Garza bringing fourth the Word of the Lord</h3>
+        <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
       <!-- Button -->
       <a
-        href="https://www.facebook.com/watch/?v=743380788067628"
+        href="https://www.facebook.com/watch/?v=1247803573261946"
         target="_blank"
         class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
       >
@@ -155,18 +155,18 @@ const isOpen = ref(false)
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
       <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
-        <p class="text-sm text-gray-500">Jun</p>
-        <p class="text-xl font-bold text-[#475F45]">18</p>
+        <p class="text-sm text-gray-500">Jul</p>
+        <p class="text-xl font-bold text-[#475F45]">30</p>
       </div>
       <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to SAFC as we worship tonight With Brother Juan sharing Gods word</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to SAFC as we worship tonight with Pastora Lydia</h3>
         <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
       <!-- Button -->
       <a
-        href="https://www.facebook.com/watch/?v=691502060457827"
+        href="https://www.facebook.com/watch/?v=1442796113592764"
         target="_blank"
         class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
       >
@@ -180,18 +180,18 @@ const isOpen = ref(false)
     <div class="flex items-start justify-between bg-white p-4 border border-gray-200 rounded shadow">
       <!-- Date -->
       <div class="flex-shrink-0 text-center w-16">
-        <p class="text-sm text-gray-500">Jun</p>
-        <p class="text-xl font-bold text-[#475F45]">15</p>
+        <p class="text-sm text-gray-500">Jul</p>
+        <p class="text-xl font-bold text-[#475F45]">27</p>
       </div>
       <!-- Details -->
       <div class="flex-1 ml-4">
         <p class="text-xs text-gray-400 uppercase font-medium">Sunday Morning</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Join us as we celebrate Father’s Day@ San Antonio for Christ</h3>
+        <h3 class="text-lg font-semibold text-[#475F45]">Join us at San Antonio for Christ</h3>
         <p class="text-sm text-gray-600">Sunday, 10:30 AM · Main Building</p>
       </div>
       <!-- Button -->
       <a
-        href="https://www.facebook.com/watch/?v=1083091810333354"
+        href="https://www.facebook.com/watch/?v=1269153764664459"
         target="_blank"
         class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
       >
@@ -210,13 +210,13 @@ const isOpen = ref(false)
       </div>
       <!-- Details -->
       <div class="flex-1 ml-4">
-        <p class="text-xs text-gray-400 uppercase font-medium">Saturday</p>
-        <h3 class="text-lg font-semibold text-[#475F45]">Building a God-Centered Marriage</h3>
-        <p class="text-sm text-gray-600">Saturday, 10:50 AM · Main Building</p>
+        <p class="text-xs text-gray-400 uppercase font-medium">Wednesday night</p>
+        <h3 class="text-lg font-semibold text-[#475F45]">Welcome to Wednesday night service at San Antonio For Christ</h3>
+        <p class="text-sm text-gray-600">Wednesday, 7:00 PM · Main Building</p>
       </div>
       <!-- Button -->
       <a
-        href="https://www.facebook.com/watch/?v=726876649714195"
+        href="https://www.facebook.com/watch/?v=1162506038831944"
         target="_blank"
         class="ml-4 px-4 py-2 text-sm font-medium border border-[#475F45] text-[#475F45] hover:bg-[#475F45] hover:text-white rounded transition"
       >

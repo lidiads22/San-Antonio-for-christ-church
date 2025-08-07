@@ -213,11 +213,11 @@ const isOpen = ref(false)
   <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
     <div class="group relative overflow-hidden rounded-lg shadow">
       <img
-        src="/img/gallery1.jpg"
-        alt="Community Cook-out"
-        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-        loading="lazy"
-      />
+      src="/src/img/IMG_7776.jpeg"
+      alt="Community Cook-out"
+      class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+      loading="lazy"
+    />
       <div
         class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
       >
@@ -231,7 +231,7 @@ const isOpen = ref(false)
     <!-- Repeat this block for each photo: just change the src & alt -->
     <div class="group relative overflow-hidden rounded-lg shadow">
       <img
-        src="/img/gallery2.jpg"
+        src="/src/img/IMG_7780.jpeg"
         alt="Youth Worship Night"
         class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         loading="lazy"

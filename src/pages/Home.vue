@@ -85,14 +85,13 @@ const isOpen = ref(false)
     >Services</router-link>
 
     <!-- Events -->
- <router-link
-  to="/calendar"
-  @click="isOpen = false"
-  class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
->
-  Calendar
-</router-link>
-
+    <router-link
+      to="/calendar"
+      @click="isOpen = false"
+      class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
+    >
+      Calendar
+    </router-link>
 
     <!-- Resources -->
     <router-link

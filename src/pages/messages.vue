@@ -221,10 +221,6 @@ const isOpen = ref(false)
       <div
         class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center"
       >
-        <svg class="w-12 h-12 text-white opacity-0 group-hover:opacity-100" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M14.752 11.168l-5.197-3.03A1 1 0 008 9.053v5.894a1 1 0 001.555.832l5.197-3.03a1 1 0 000-1.664z" />
-        </svg>
       </div>
     </div>
 
@@ -241,7 +237,7 @@ const isOpen = ref(false)
       >
       </div>
     </div>
-    <!-- …and so on for gallery3.jpg, gallery4.jpg, etc. -->
+    <!--  gallery3.jpg, gallery4.jpg, etc. -->
      <div class="group relative overflow-hidden rounded-lg shadow">
       <img
         src="/src/img/IMG_7777.jpeg"
@@ -255,7 +251,7 @@ const isOpen = ref(false)
       </div>
     </div>
 
-     <!-- …and so on for gallery3.jpg, gallery4.jpg, etc. -->
+     <!-- gallery3.jpg, gallery4.jpg, etc. -->
      <div class="group relative overflow-hidden rounded-lg shadow">
       <img
         src="/src/img/IMG_7760.jpeg"

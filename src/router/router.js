@@ -2,10 +2,15 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home     from '../pages/Home.vue'
 import Messages from '../pages/messages.vue'
+import Calendar from '../pages/calendar.vue'
 
 const routes = [
   { path: '/',          component: Home     },
   { path: '/messages',  component: Messages },
+  {
+    path: '/calendar',
+    component: Calendar,
+  },
   // fallback for any other paths → Home
   { path: '/:pathMatch(.*)*', component: Home }
 ]

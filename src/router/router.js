@@ -2,7 +2,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home     from '../pages/Home.vue'
 import Messages from '../pages/messages.vue'
-import Calendar from '../pages/calendar.vue'
+import Calendar from '../pages/Calendar.vue'
 
 const routes = [
   { path: '/',          component: Home     },

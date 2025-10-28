@@ -84,7 +84,7 @@ const isOpen = ref(false)
       class="font-medium text-white lg:text-[#475F45] lg:hover:text-gray-400 lg:mx-4"
     >Services</router-link>
 
-    <!-- Events -->
+    <!-- Calendar -->
     <router-link
       to="/calendar"
       @click="isOpen = false"

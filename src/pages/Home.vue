@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import pastors from '../img/pasters.jpg'
 import crossPicture from '../img/cross-picture.webp'
-import joinUs from '../img/JoinUs.png'
+import JoinUs from '../img/JoinUs.png'
 import map from '../img/map.png'
 
 const isOpen = ref(false)
@@ -218,7 +218,7 @@ const isOpen = ref(false)
 <!-- Image Block for join us -->
 <div class="mt-8 md:mt-0 flex justify-center md:justify-end">
   <img 
-    src="joinUs" 
+    src="JoinUs" 
     alt="Sunday Service Flyer" 
     class="w-72 md:w-80 lg:w-96 rounded-lg shadow-md object-cover"
   />

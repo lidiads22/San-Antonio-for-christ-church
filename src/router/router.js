@@ -7,10 +7,8 @@ import Calendar from '../pages/Calendar.vue'
 const routes = [
   { path: '/',          component: Home     },
   { path: '/messages',  component: Messages },
-  {
-    path: '/calendar',
-    component: Calendar,
-  },
+  { path: '/calendar', component: Calendar },
+
   // fallback for any other paths → Home
   { path: '/:pathMatch(.*)*', component: Home }
 ]

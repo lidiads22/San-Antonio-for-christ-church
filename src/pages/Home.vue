@@ -225,7 +225,6 @@ const isOpen = ref(false)
 </section>
 
 
-
 <section id="events" class="container px-6 py-12 mx-auto lg:py-16">
   <h1 class="text-5xl font-serif font-bold text-[#475F45] mb-4">
     Events

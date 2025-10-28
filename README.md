@@ -57,3 +57,27 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ### Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+✅ Step 1: Push Your Changes to GitHub
+
+Run the following commands:
+
+git add .
+git commit -m "Describe your changes here"
+git push origin main
+
+
+Replace "Describe your changes here" with something like "Update homepage" or "Fix booking calendar".
+
+✅ Step 2: Deploy to GitHub Pages
+
+Run:
+
+npm run deploy
+
+
+This will:
+
+Run vite build (builds your project to dist/)
+
+Push the dist/ folder to the gh-pages branch for GitHub Pages to serve

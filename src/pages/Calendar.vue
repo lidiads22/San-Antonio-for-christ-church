@@ -99,22 +99,38 @@ const isOpen = ref(false)
     </header>
 
 
-  <div class="min-h-screen bg-white dark:bg-primary text-primary dark:text-white px-4 py-10">
-      <div class="max-w-screen-lg mx-auto">
-        <h1 class="text-3xl lg:text-4xl font-bold text-center mb-8">Church Calendar</h1>
-        <div class="w-full h-[800px] rounded-lg overflow-hidden shadow-lg">
-          <iframe
-            src="https://calendar.google.com/calendar/embed?src=sanantonioforchrist4%40gmail.com&ctz=America%2FChicago"
-            style="border: 0"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            scrolling="no">
-          </iframe>
-        </div>
-      </div>
+                                                                                                                                                                                                            
+
+    <section class="bg-[#343D33] mt-12">
+  <div class="container flex flex-col px-6 py-16 mx-auto">
+    <h2 class="text-3xl text-white font-semibold mb-4 text-center">
+      Event Calendar
+    </h2>
+    <p class="text-gray-300 text-center max-w-2xl mx-auto mb-4">
+      Be part of our worship services, Bible studies, and community events at San Antonio For Christ!
+    </p>
+ <p class="text-center text-lg lg:text-xl mb-4 text-[#475F45] dark:text-gray-100 italic">
+        “For where two or three gather in my name, there am I with them.” – Matthew 18:20
+      </p>
+
+
+    <!-- Responsive calendar wrapper with max width -->
+    <div class="w-full max-w-screen-lg mx-auto h-[800px] rounded-lg overflow-hidden shadow-lg mt-8">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=sanantonioforchrist4%40gmail.com&ctz=America%2FChicago"
+        style="border: 0"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        scrolling="no">
+      </iframe>
     </div>
-   
+  </div>
+</section>
+
+
+
+
 
 
   </main>

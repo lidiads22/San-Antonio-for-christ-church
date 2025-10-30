@@ -8,4 +8,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    extend: {
+      fontFamily: {
+        cursive: ['"Dancing Script"', 'cursive'],
+      }
+    }
+  }
 }
